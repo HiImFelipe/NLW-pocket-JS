@@ -4,8 +4,8 @@ services:
   postgres: 
     image: 'bitnami/postgresql:13.16.0'
     ports:
-      - '5432:5435'
+      - '5432:5432'
     environment:
       - POSTGRESQL_USER=postgres
       - POSTGRESQL_PASSWORD=postgres
-      - POSTGRESQL_DB=inorbit
+      - POSTGRESQL_DATABASE=inorbit
